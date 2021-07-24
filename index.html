@@ -1,25 +1,40 @@
 <!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/mobile.css"/>
-    <link rel="stylesheet" href="assets/css/tablet.css"/>
-    <link rel="stylesheet" href="assets/css/screen.css"/>
-    <title>BDTK Marmusots</title>
-</head>
+<html lang="FR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <title>Bédéthèque</title>
+    </head>
     <body>
         <div id="wrapper">
-            <header>
-                <h1><span></span></h1>
-            </header>
-            <nav>
-
-            </nav>
-
+            <div id="header">
+                <div class="alert alert-success mt-2 text-center">Centre Culturel des Marmusots</div>
+            </div>
+            <div id="search" class="text-center mt-2">
+                <span>La Bédéthèque</span>
+                <br><br>
+                <form action="" method="get" class="text-center mt-2">
+                    <input type="text" name="search" id="rechercheDoc" placeholder="Recherche"> 
+                    <br><br>
+                    <input type="button" value="Rechercher" id="btnRechercheDoc">
+                </form>
+                <br>
+                <br>
+            </div>
+            <hr width="100%">
+            <div id="connection" class="text-center mt-3">
+                <span>Se connecter</span>
+                <br><br>
+                <form action="" method="get" class="text-center">
+                    <input type="text" name="identifiant" id="loginAccueil" placeholder="Nom d'utilisateur">
+                    <br><br>
+                    <input type="password" name="password" id="passAccueil" placeholder="Mot de passe">
+                    <br><br>
+                    <input type="submit" value="Se connecter" id="bntLoginAccueil">
+                </form>
+            </div>
         </div>
-
-        <script src="assets/js/main.js"></script>
     </body>
 </html>
