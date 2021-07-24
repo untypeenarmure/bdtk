@@ -5,25 +5,30 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/all.css">
         <title>Bédéthèque</title>
     </head>
     <body>
         <div id="wrapper">
             <div id="header">
-                <div class="alert alert-success mt-2 text-center">Centre Culturel des Marmusots</div>
+                <div class="alert alert-success mt-2 text-center text-uppercase">Centre Culturel des Marmusots</div>
             </div>
-            <div id="search" class="text-center mt-2">
-                <span>La Bédéthèque</span>
-                <br><br>
-                <form action="" method="get" class="text-center mt-2">
-                    <input type="text" name="search" id="rechercheDoc" placeholder="Recherche"> 
-                    <br><br>
-                    <input type="button" value="Rechercher" id="btnRechercheDoc">
-                </form>
-                <br>
-                <br>
+            <!-- Revoir les ID-->
+            <div id="search" class="text-center"> 
+                <span>Rechercher une BD</span>
+
+                <div id="champsRechercheDoc">
+                    <form id="rechercheDocument" class="mt-5 col-8 mx-auto">
+                        <p class="d-flex"><input class="form-control me-2" type="search" placeholder="Recherche par titre" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit"><i class="fas fa-search"></i></button></p>
+                        <p class="d-flex"><input class="form-control me-2" type="search" placeholder="Recherche par auteur" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit"><i class="fas fa-search"></i></button></p>
+                        <p class="d-flex"><input class="form-control me-2" type="search" placeholder="Recherche par série" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit"><i class="fas fa-search"></i></button></p>
+                    </form>
+                </div>
             </div>
-            <hr width="100%">
+            <hr width="100%" class="mt-5">
             <div id="connection" class="text-center mt-3">
                 <span>Se connecter</span>
                 <br><br>
@@ -36,5 +41,6 @@
                 </form>
             </div>
         </div>
+        <script src="assets/js/all.js"></script>
     </body>
 </html>
