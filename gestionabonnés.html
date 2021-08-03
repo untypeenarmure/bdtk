@@ -6,9 +6,33 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="assets/css/bootstrap.min.css">
         <link rel="stylesheet" href="assets/css/all.css">
-        <title>Bédéthèque</title>
+        <title>Abonnés</title>
     </head>
     <body>
+        <div id="wrapper">
+            <div id="header">
+                <div class="alert alert-success mt-2 text-center text-uppercase">Centre Culturel des Marmusots</div>
+            </div>
+            <nav id="navAgent" class="text-center d-flex justify-content-around col-8 mx-auto">
+                <a class="btn btn-primary" href="index.html" role="button">Accueil</a>
+                <a class="btn btn-primary" href="interface_agent.html" role="button">Menu</a>
+                <input class="btn btn-danger" type="submit" value="Déconnexion">
+            </nav>
+            <div id="EmpruntSearchAbonne" class="mt-5">
+                <form class="d-flex col-6 mx-auto">
+                    <input class="form-control me-2" type="search" placeholder="Nom abonné" aria-label="Search" >
+                    <button class="btn btn-outline-success" type="submit"><i class="fas fa-search"></i></button>
+                </form>
+            </div>
+            <div id="infoUtilisateur" class="mt-3 col-10 border border-info border23 rounded text-center mx-auto">
+                <h1>test</h1>
+            </div>
+            <div class="mt-3 col-6 mx-auto text-center">
+                <button class="btn btn-outline-secondary" type="submit" id="btnModifyUsers">Modifier</button>
+            </div>
+            <div class="mt-3 col-6 mx-auto text-center">
+                <a class="btn btn-outline-secondary" href="user_create.html" role="button">Nouvel abonné</a>
+            </div>
 
 
         

@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="assets/css/bootstrap.min.css">
         <link rel="stylesheet" href="assets/css/all.css">
-        <title>Bédéthèque</title>
+        <title>Documents</title>
     </head>
     <body>
         <div id="wrapper">
@@ -14,7 +14,8 @@
                 <div class="alert alert-success mt-2 text-center text-uppercase">Centre Culturel des Marmusots</div>
             </div>
             <nav id="navAgent" class="text-center d-flex justify-content-around col-8 mx-auto">
-                <a class="btn btn-success" href="index.html" role="button">Accueil</a>
+                <a class="btn btn-primary" href="index.html" role="button">Accueil</a>
+                <a class="btn btn-primary" href="interface_agent.html" role="button">Menu</a>
                 <input class="btn btn-danger" type="submit" value="Déconnexion">
             </nav>
             <div id="mainAgentDoc" class="text-center mt-5 gap-3 d-grid col-6 mx-auto">
@@ -27,6 +28,11 @@
                         <p class="d-flex"><input class="form-control me-2" type="search" placeholder="Recherche par série" aria-label="Search">
                         <button class="btn btn-outline-success" type="submit"><i class="fas fa-search"></i></button></p>
                     </form>
+                </div>
+                <div id="infoUtilisateur" class="col-10 border border-info border23 rounded text-center mx-auto">
+                    <table>
+                        <td>Affichage résultats recherche</td>
+                    </table>
                 </div>
                 <a class="btn btn-outline-secondary" href="doc_create.html" role="button">Nouveau Document</a>
             </div>
