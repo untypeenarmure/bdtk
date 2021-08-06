@@ -21,15 +21,15 @@
             <div id="mainAgentDoc" class="text-center mt-5 gap-3 d-grid col-6 mx-auto">
                 <div id="champsRechercheDoc">
                     <form id="rechercheDocument">
-                        <p class="d-flex"><input class="form-control me-2" type="search" placeholder="Recherche par titre" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit"><i class="fas fa-search"></i></button></p>
-                        <p class="d-flex"><input class="form-control me-2" type="search" placeholder="Recherche par auteur" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit"><i class="fas fa-search"></i></button></p>
-                        <p class="d-flex"><input class="form-control me-2" type="search" placeholder="Recherche par série" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit"><i class="fas fa-search"></i></button></p>
+                        <p class="d-flex"><input class="form-control me-2" type="search" placeholder="Recherche par titre" id="rechercheParTitreAgent"aria-label="Search">
+                        <button class="btn btn-outline-success" id="btnRechercheParTitreAgent"type="submit"><i class="fas fa-search"></i></button></p>
+                        <p class="d-flex"><input class="form-control me-2" type="search" placeholder="Recherche par auteur" id="rechercheParAuteurAgent"aria-label="Search">
+                        <button class="btn btn-outline-success" id="btnRechercheParAuteurAgent"type="submit"><i class="fas fa-search"></i></button></p>
+                        <p class="d-flex"><input class="form-control me-2" type="search" placeholder="Recherche par série" id="rechercheParSerieAgent"aria-label="Search">
+                        <button class="btn btn-outline-success" id="btnRechercheParSerieAgent"type="submit"><i class="fas fa-search"></i></button></p>
                     </form>
                 </div>
-                <div id="infoUtilisateur" class="col-10 border border-info border23 rounded text-center mx-auto">
+                <div id="infoRechercheDoc" class="col-10 border border-info border23 rounded text-center mx-auto">
                     <table>
                         <td>Affichage résultats recherche</td>
                     </table>
@@ -38,5 +38,9 @@
             </div>
         </div>
         <script src="assets/js/all.js"></script>
+        <script src="assets/js/interfaceAgent.js"></script>
+        <script src="assets/ressources/data/albums.js"></script>
+        <script src="assets/ressources/data/auteurs.js"></script>
+        <script src="assets/ressources/data/series.js"></script>
     </body>
 </html>

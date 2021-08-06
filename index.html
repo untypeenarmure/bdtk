@@ -32,18 +32,21 @@
             <div id="connection" class="text-center mt-3">
                 <span>Se connecter</span>
                 <br><br>
-                <form action="" method="get" class="text-center">
-                    <input type="text" name="identifiant" id="loginAccueil" placeholder="Nom d'utilisateur">
+                <form method="GET" class="text-center" id="formLogin">
+                    <input type="text" name="loginAccueil" id="loginAccueil" placeholder="Nom d'utilisateur">
                     <br><br>
                     <input type="password" name="password" id="passAccueil" placeholder="Mot de passe">
                     <br><br>
-                    <input type="submit" value="Se connecter" id="bntLoginAccueil">
-                </form>
+                    <input type="button" value="Se connecter" id="btnLoginAccueil">
+                </form> 
             </div>
         </div>
 
-
         
         <script src="assets/js/all.js"></script>
+        <script src="assets/js/main.js"></script>
+        <script src="assets/ressources/data/albums.js"></script>
+        <script src="assets/ressources/data/auteurs.js"></script>
+        <script src="assets/ressources/data/series.js"></script>
     </body>
 </html>
