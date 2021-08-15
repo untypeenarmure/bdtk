@@ -1,10 +1,11 @@
 // Getters
 // Champs Recherche
 var rechercheParTitreAgent = document.querySelector("#rechercheParTitreAgent").value;
-var btnRechercheParTitreAgent = document.querySelector("#btnRechercheParTitreAgent");
 var rechercheParAuteurAgent = document.querySelector("#rechercheParAuteurAgent").value;
-var btnRechercheParAuteurAgent = document.querySelector("#btnRechercheParAuteurAgent");
 var rechercheParSerieAgent = document.querySelector("#rechercheParSerieAgent").value;
+
+var btnRechercheParTitreAgent = document.querySelector("#btnRechercheParTitreAgent");
+var btnRechercheParAuteurAgent = document.querySelector("#btnRechercheParAuteurAgent");
 var btnRechercheParSerieAgent = document.querySelector("#btnRechercheParSerieAgent");
 
 var listeAlbums = albums;
